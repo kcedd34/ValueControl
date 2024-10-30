@@ -28,7 +28,7 @@ Camada de Integração para Expansão: A arquitetura permite a integração com 
 Desempenho e Disponibilidade: A separação de responsabilidades e a utilização de práticas como caching permitem que o sistema atenda a um alto volume de transações sem perder desempenho. O balanceamento de carga e a redundância garantem alta disponibilidade.
 Confiabilidade: A aplicação foi projetada para que cada serviço funcione de forma independente, aumentando a confiabilidade em caso de falhas isoladas. A utilização de técnicas de recuperação, como retry policies e circuit breakers, pode ser adicionada para garantir ainda mais resiliência.
 
-# Diagrama de arquitettura
+# Diagrama de arquitetura
 ![Diagrama de arquitettura](https://github.com/kcedd34/ValueControl/blob/main/projectValueControl.png)
 
 # Conclusão do Projeto ValueControl
