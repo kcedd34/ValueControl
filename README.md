@@ -2,7 +2,7 @@
 .NET SDK 6.0+
 Entity Framework Core CLI (para migrações)
 Editor de código (Visual Studio ou Visual Studio Code)
-Ferramenta de teste opcional(Postman ou curl)
+Ferramenta de teste opcional(Postman ou curl) já documentado no swagger.
 
 # Este projeto atende aos requisitos de arquitetura descritos:
 
@@ -30,3 +30,25 @@ Confiabilidade: A aplicação foi projetada para que cada serviço funcione de f
 
 # Diagrama de arquitettura
 ![Diagrama de arquitettura](https://github.com/kcedd34/ValueControl/blob/main/projectValueControl.png)
+
+# Conclusão do Projeto ValueControl
+O projeto ValueControl foi desenvolvido com o objetivo de fornecer uma solução simples e eficiente para o controle de fluxo de caixa diário, permitindo que comerciantes e usuários acompanhem suas transações financeiras (créditos e débitos) e obtenham um saldo diário consolidado. A aplicação foi construída utilizando tecnologias modernas, como ASP.NET Core e Entity Framework, e segue boas práticas de arquitetura e design, incluindo princípios SOLID e padrões de projeto, como Repository e Service.
+
+# Resultados Alcançados
+Funcionalidade de Controle de Lançamentos: Implementamos um sistema robusto para registrar transações financeiras, permitindo a classificação entre créditos e débitos.
+Saldo Consolidado Diário: Desenvolvemos um mecanismo para calcular o saldo diário com base nas transações registradas, oferecendo uma visão consolidada do fluxo de caixa.
+Boas Práticas e Testes Automatizados: A aplicação foi desenvolvida seguindo boas práticas de desenvolvimento e inclui testes automatizados com xUnit para garantir a confiabilidade e a precisão dos principais serviços e operações.
+Documentação Completa: O projeto conta com uma documentação detalhada que orienta os usuários a configurar e executar o sistema, bem como a contribuir para melhorias futuras.
+Aprendizados e Desafios
+Durante o desenvolvimento do ValueControl, lidamos com desafios de integração entre camadas e configuração de um ambiente de testes eficaz. A implementação de padrões de arquitetura e o uso de uma abordagem modular tornaram o sistema mais flexível e fácil de manter, aumentando a escalabilidade e a reutilização de código.
+
+# Melhorias Futuras
+Algumas melhorias futuras para o ValueControl incluem:
+
+# Integração com APIs Bancárias: Permitir a importação automática de transações diretamente de contas bancárias, facilitando ainda mais o controle de fluxo de caixa.
+Dashboard Analítico: Adicionar uma interface gráfica para visualizar o histórico financeiro e padrões de fluxo de caixa, fornecendo insights financeiros aos usuários.
+Funcionalidades de Relatório e Exportação: Implementar funcionalidades para exportar relatórios financeiros em formatos como PDF e Excel.
+Segurança Avançada e Autenticação: Implementar autenticação baseada em JWT e controles de acesso mais rigorosos para garantir a segurança dos dados dos usuários.
+
+# Conclusão Geral
+O projeto ValueControl demonstrou-se eficaz em atender aos requisitos iniciais e prover uma base sólida para o controle financeiro diário. Com um design modular e boas práticas de desenvolvimento, ele está preparado para evoluir e incorporar novas funcionalidades. Esse projeto serve como uma fundação para expandir o suporte a novas funcionalidades e integrações, possibilitando uma experiência cada vez mais completa para seus usuários.
