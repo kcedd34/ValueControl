@@ -45,7 +45,7 @@ Durante o desenvolvimento do ValueControl, lidamos com desafios de integração 
 # Melhorias Futuras
 Algumas melhorias futuras para o ValueControl incluem:
 
-# Integração com APIs Bancárias: Permitir a importação automática de transações diretamente de contas bancárias, facilitando ainda mais o controle de fluxo de caixa.
+Integração com APIs Bancárias: Permitir a importação automática de transações diretamente de contas bancárias, facilitando ainda mais o controle de fluxo de caixa.
 Dashboard Analítico: Adicionar uma interface gráfica para visualizar o histórico financeiro e padrões de fluxo de caixa, fornecendo insights financeiros aos usuários.
 Funcionalidades de Relatório e Exportação: Implementar funcionalidades para exportar relatórios financeiros em formatos como PDF e Excel.
 Segurança Avançada e Autenticação: Implementar autenticação baseada em JWT e controles de acesso mais rigorosos para garantir a segurança dos dados dos usuários.
