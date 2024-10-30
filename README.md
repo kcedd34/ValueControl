@@ -31,6 +31,9 @@ Confiabilidade: A aplicação foi projetada para que cada serviço funcione de f
 # Diagrama de arquitetura
 ![Diagrama de arquitettura](https://github.com/kcedd34/ValueControl/blob/main/projectValueControl.png)
 
+# Fluxo de Dados
+![Diagrama de arquitettura](https://github.com/kcedd34/ValueControl/blob/main/projectValueControlDataFlow.png)
+
 # Conclusão do Projeto ValueControl
 O projeto ValueControl foi desenvolvido com o objetivo de fornecer uma solução simples e eficiente para o controle de fluxo de caixa diário, permitindo que comerciantes e usuários acompanhem suas transações financeiras (créditos e débitos) e obtenham um saldo diário consolidado. A aplicação foi construída utilizando tecnologias modernas, como ASP.NET Core e Entity Framework, e segue boas práticas de arquitetura e design, incluindo princípios SOLID e padrões de projeto, como Repository e Service.
 
